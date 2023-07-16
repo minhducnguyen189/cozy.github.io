@@ -1,3 +1,8 @@
+/* Smooth scrolling animation */
+html,
+body {
+  scroll-behavior: smooth; }
+
 body {
   color: #01050d;
   background: #f9f3f1ff;
@@ -68,11 +73,66 @@ header {
     justify-content: space-between;
     align-items: center;
     padding-top: 0.25rem;
-    padding-bottom: 0.25rem; }
+    padding-bottom: 0.25rem;
+    /* Update text color */
+    /* Update icon color */ }
     header .container .right-stuff div:first-child {
       margin-bottom: 1rem; }
+    header .container .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      color: #01050d;
+      /* Use the updated text color */ }
+    header .container .navbar-brand {
+      font-size: 24px;
+      font-weight: bold;
+      color: #01050d;
+      /* Use the updated text color */ }
+    header .container .navbar-items {
+      display: flex;
+      gap: 20px; }
+    header .container .nav-item {
+      color: #01050d;
+      /* Use the updated text color */
+      text-decoration: none;
+      padding: 10px;
+      transition: background-color 0.3s ease; }
+      header .container .nav-item:hover {
+        background-color: #6ea286;
+        /* Make it lighter on hover */
+        border-radius: 5px; }
+    header .container .navbar-toggle {
+      display: none;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 30px;
+      height: 20px;
+      cursor: pointer; }
+      header .container .navbar-toggle span {
+        width: 100%;
+        height: 2px;
+        background-color: #01050d;
+        /* Use the updated text color */ }
+    @media (max-width: 768px) {
+      header .container .navbar-items {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 87px;
+        right: 10px;
+        background-color: #8db6a0;
+        /* Make it lighter */
+        width: 150px;
+        border-radius: 5px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3); }
+      header .container .navbar-items.show {
+        display: flex; }
+      header .container .navbar-toggle {
+        display: flex; } }
   header img {
-    width: 125px; }
+    width: 70px; }
   header a {
     color: #01050d; }
 
@@ -116,7 +176,7 @@ a.btn {
     position: absolute;
     left: 0;
     right: 0;
-    top: 141px;
+    top: 86px;
     color: #f9f3f1ff;
     height: 600px;
     background: rgba(0, 0, 0, 0.3); }

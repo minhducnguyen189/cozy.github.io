@@ -36,14 +36,33 @@
     
     <link rel="stylesheet" href="/cozy.github.io/styles/main.css" media="screen" />
     </head>
-  <body>
+  <body id="body">
     <header>
   <div class="container">
-    <a href="/cozy.github.io/"><img src="/cozy.github.io/images/logo.png" /></a>
-    <div class="right-stuff">
+    <a href="/cozy.github.io/#body"><img src="/cozy.github.io/images/logo.png" /></a>
+    <nav class="navbar">
+      <div class="navbar-items">
+        <a href="/cozy.github.io/#body" class="nav-item">Home</a>
+        <a href="/cozy.github.io/#section-product" class="nav-item">Menu</a>
+        <a href="/cozy.github.io/#section-contacts" class="nav-item">Contacts</a>
+        <a href="/cozy.github.io/#section-location" class="nav-item">Location</a>
+        <a href="/cozy.github.io/#section-reviews" class="nav-item">Reviews</a>
+      </div>
+      <div class="navbar-toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+    <script>
       
-      
-    </div>
+      const navbarToggle = document.querySelector('.navbar-toggle');
+      const navbarItems = document.querySelector('.navbar-items');
+  
+      navbarToggle.addEventListener('click', () => {
+        navbarItems.classList.toggle('show');
+      });
+    </script>
   </div>
 </header>
 
@@ -77,18 +96,18 @@
   </div>
 </section>
 
-    <section>
+    <section id="section-product">
       <h2>Cozy Menu</h2>
       <div class="category-wrapper container">
   
   
-  <a class="btn" href="/cozy.github.io/">All</a>
+  <a class="btn" href="/cozy.github.io/#section-product">All</a>
   
-  <a class="btn" href="/cozy.github.io/categories/for-foods">For Foods</a>
+  <a class="btn" href="/cozy.github.io/categories/for-foods/#section-product">For Foods</a>
   
-  <a class="btn" href="/cozy.github.io/categories/for-drinks">For Drinks</a>
+  <a class="btn" href="/cozy.github.io/categories/for-drinks/#section-product">For Drinks</a>
   
-  <a class="btn" href="/cozy.github.io/categories/best-sell">Best Sell</a>
+  <a class="btn" href="/cozy.github.io/categories/best-sell/#section-product">Best Sell</a>
   
 </div>
 
@@ -109,7 +128,7 @@
 ></div>
 
     </section>
-    <section>
+    <section id="section-contacts">
       <h2>Contacts Us</h2>
       <div class="container">
         <div class="reviews flex-grid">
@@ -144,7 +163,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section id="section-location">
       <h2>Cozy Locations</h2>
       <div class="container">
         <div class="reviews flex-grid">
@@ -176,7 +195,7 @@
         </div>
       </div>
     </section>
-    <section>
+    <section id="section-reviews">
       <h2>Cozy reviews</h2>
       <div class="container">
         <div class="reviews flex-grid">
@@ -238,5 +257,11 @@
   <p>&copy; Copyright 2023 Cozy Bar Athens</p>
 </footer>
 
+    <script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
+    <script>addBackToTop({
+      diameter: 56,
+      backgroundColor: 'rgb(255, 82, 82)',
+      textColor: '#fff'
+    })</script>  
   </body>
 </html>
