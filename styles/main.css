@@ -45,6 +45,9 @@ a {
 section {
   margin-bottom: 2rem; }
 
+.section-container {
+  margin-top: 4rem; }
+
 .container {
   max-width: 1250px;
   margin: auto;
@@ -293,8 +296,8 @@ a.btn {
     right: 0;
     padding: 80px 10% 15%; }
     .reviews .review figcaption:before {
-      font-family: 'FontAwesome';
-      content: '\201C';
+      font-family: "FontAwesome";
+      content: "\201C";
       position: absolute;
       font-size: 170px;
       opacity: 0.75;
@@ -315,7 +318,6 @@ a.btn {
     margin: 3px 0; }
 
 .contact {
-  font-family: Arial, sans-serif;
   color: #333; }
   .contact .container {
     width: 1170px;
@@ -347,3 +349,62 @@ a.btn {
     margin-top: 20px; }
   .contact p {
     margin: 5px 0; }
+
+.drink, .food {
+  margin-top: 2rem;
+  /* Media query for iPhone 8 (375px width in portrait mode) */ }
+  .drink .container, .food .container {
+    width: 1170px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px; }
+    .drink .container table, .food .container table {
+      width: 1170px;
+      border-collapse: separate;
+      border: solid #ccc 1px;
+      border-radius: 10px;
+      overflow-x: auto;
+      /* Add horizontal scroll for small screens */
+      /* Rest of your table styling */ }
+      .drink .container table th,
+      .drink .container table td, .food .container table th,
+      .food .container table td {
+        text-align: left;
+        border-left: 1px solid #ccc;
+        border-top: 1px solid #ccc;
+        padding: 10px; }
+      .drink .container table th, .food .container table th {
+        background-color: #8db38bff;
+        color: white; }
+      .drink .container table td ul, .food .container table td ul {
+        margin-top: 0;
+        margin-bottom: 0; }
+      .drink .container table td:first-child,
+      .drink .container table .bordered th:first-child, .food .container table td:first-child,
+      .food .container table .bordered th:first-child {
+        border-left: none; }
+      .drink .container table th:first-child, .food .container table th:first-child {
+        border-radius: 6px 0 0 0; }
+      .drink .container table th:last-child, .food .container table th:last-child {
+        border-radius: 0 6px 0 0; }
+      .drink .container table th:only-child, .food .container table th:only-child {
+        border-radius: 6px 6px 0 0; }
+      .drink .container table tr:last-child td:first-child, .food .container table tr:last-child td:first-child {
+        border-radius: 0 0 0 6px; }
+      .drink .container table tr:last-child td:last-child, .food .container table tr:last-child td:last-child {
+        border-radius: 0 0 6px 0; }
+      .drink .container table tr:hover, .food .container table tr:hover {
+        background-color: #ddd; }
+  @media (max-width: 768px) {
+    .drink .container, .food .container {
+      width: auto;
+      padding: 10px; }
+      .drink .container table, .food .container table {
+        width: 100%; }
+      .drink .container th,
+      .drink .container td, .food .container th,
+      .food .container td {
+        padding: 5px; } }

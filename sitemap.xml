@@ -2,45 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>cozy.github.io/d-cocktail-airmail/</loc>
+    <loc>cozy.github.io/drink/</loc>
   </url><url>
-    <loc>cozy.github.io/d-cocktail-southside/</loc>
-  </url><url>
-    <loc>cozy.github.io/d-coctail-americano/</loc>
-  </url><url>
-    <loc>cozy.github.io/d-coctail-bramble/</loc>
-  </url><url>
-    <loc>cozy.github.io/d-coctail-hankypanky/</loc>
-  </url><url>
-    <loc>cozy.github.io/d-coctail-oldcuban/</loc>
-  </url><url>
-    <loc>cozy.github.io/d-gin/</loc>
-  </url><url>
-    <loc>cozy.github.io/d-rum/</loc>
-  </url><url>
-    <loc>cozy.github.io/f-chilicrab/</loc>
-  </url><url>
-    <loc>cozy.github.io/f-croissants/</loc>
-  </url><url>
-    <loc>cozy.github.io/f-fajitas/</loc>
-  </url><url>
-    <loc>cozy.github.io/f-goicuon/</loc>
-  </url><url>
-    <loc>cozy.github.io/f-paelle/</loc>
-  </url><url>
-    <loc>cozy.github.io/f-poke/</loc>
-  </url><url>
-    <loc>cozy.github.io/f-somtam/</loc>
-  </url><url>
-    <loc>cozy.github.io/categories/best-sell/</loc>
+    <loc>cozy.github.io/food/</loc>
   </url><url>
     <loc>cozy.github.io/categories/</loc>
   </url><url>
     <loc>cozy.github.io/</loc>
   </url><url>
-    <loc>cozy.github.io/categories/for-drinks/</loc>
+    <loc>cozy.github.io/categories/drinks/</loc>
   </url><url>
-    <loc>cozy.github.io/categories/for-foods/</loc>
+    <loc>cozy.github.io/categories/foods/</loc>
   </url><url>
     <loc>cozy.github.io/tags/</loc>
   </url>
