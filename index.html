@@ -60,11 +60,20 @@
       
       const navbarToggle = document.querySelector('.navbar-toggle');
       const navbarItems = document.querySelector('.navbar-items');
-  
-      navbarToggle.addEventListener('click', () => {
+    
+      navbarToggle.addEventListener('click', (event) => {
+        event.stopPropagation(); 
         navbarItems.classList.toggle('show');
       });
+    
+      
+      document.body.addEventListener('click', () => {
+        if (navbarItems.classList.contains('show')) {
+          navbarItems.classList.remove('show');
+        }
+      });
     </script>
+    
   </div>
 </header>
 
