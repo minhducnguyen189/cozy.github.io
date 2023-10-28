@@ -2,15 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Drinks on Cozy Bar Athens</title>
-    <link>cozy.github.io/categories/drinks/</link>
+    <link>cozyyumyum.com/categories/drinks/</link>
     <description>Recent content in Drinks on Cozy Bar Athens</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="cozy.github.io/categories/drinks/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator><atom:link href="cozyyumyum.com/categories/drinks/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>cozy.github.io/drink/</link>
+      <link>cozyyumyum.com/drink/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>cozy.github.io/drink/</guid>
+      <guid>cozyyumyum.com/drink/</guid>
       <description></description>
     </item>
     
