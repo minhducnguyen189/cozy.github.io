@@ -2,18 +2,18 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>cozyyumyum.com/drink/</loc>
+    <loc>/drink/</loc>
   </url><url>
-    <loc>cozyyumyum.com/food/</loc>
+    <loc>/food/</loc>
   </url><url>
-    <loc>cozyyumyum.com/categories/</loc>
+    <loc>/categories/</loc>
   </url><url>
-    <loc>cozyyumyum.com/</loc>
+    <loc>/</loc>
   </url><url>
-    <loc>cozyyumyum.com/categories/drinks/</loc>
+    <loc>/categories/drinks/</loc>
   </url><url>
-    <loc>cozyyumyum.com/categories/foods/</loc>
+    <loc>/categories/foods/</loc>
   </url><url>
-    <loc>cozyyumyum.com/tags/</loc>
+    <loc>/tags/</loc>
   </url>
 </urlset>
